@@ -44,7 +44,7 @@ form{
     color: white;
     position: absolute;
     top: 20px;
-    width: 260px;
+    width: 300px;
     font: 100% tahoma;
     
 }
@@ -55,5 +55,5 @@ select{
     width: 277px;
 }
 #checkbox{
-
+background-color: red;
 }
