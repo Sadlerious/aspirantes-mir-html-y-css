@@ -7,14 +7,11 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="background">
-        <h1> <strong> Login</strong></h1>
-        <div class="box"> 
             <form>
-                <br>
+              <h1>Login</h1>
           <label for="email" >Email</label>
           <input type="email" id="email" name="Email" placeholder="micorreo@dominio"/>
-          <br><br><br><br>
+          <br><br>
           <label for="password">Password</label>
           <input type="password" id="password" name="password"/>      
           <br><br>
@@ -24,11 +21,15 @@
             <option value="Mujer">Mujer</option>
           </select> 
           <br><br>
-          <label for="checkbox"> Acepto los términos</label>
-          <input type="checkbox" id="checkbox" name="terms"/>
+            <input type="checkbox" id="checkbox" name="terms"/>
+            <label id="linea"   for="checkbox"> <span>Acepto los términos</span></label>
+            <br><br>
+            <input id="boton" type="submit" value="Ingresar">
+            <br><br>
+          
+      
+                       
             </form>
-        </div>
-
-    </div>
+       
 </body>
 </html>

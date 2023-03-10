@@ -1,56 +1,57 @@
-.background{
+form{
     width: 300px;
-    height: 400px;
+    color: white;
+    font: 100% tahoma;
+    width: 300px;
     padding: 20px;
     border-radius: 20px;
     margin: 0 auto;
     background-image: linear-gradient(#bd09b7, #6b4cf5);
     position: relative;
+}   
+
+select {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
 }
-.box{
-    width: 280px;
-    height: 350px;
-    position: absolute;
-    top: 40px;
-    right: 5px;
-    left: 30px;
-      
+#password{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
 }
 #email{
-position: absolute;
-left: 0;
-right: 0;
-top: 40px;
-padding: 7px;
-width: 260px;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
 }
 
 h1{
-    position: absolute;
-    top: 0px;
-    left: 30px;
     color: white;
-    font: 200% tahoma;
-   
 }
-#password{
-    position: relative;
-    top: 0;
-    padding: 7px;
-    width: 260px;
+span{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-left: 0; 
+}
 
+#linea{
+    display: inline-block;
+    margin-left: 0;
+        
 }
-form{
-    color: white;
+
+#checkbox {
+    display: inline-block;
+    width:10px;
+}
+
+#boton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     position: absolute;
-    top: 20px;
-    width: 300px;
-    font: 100% tahoma;
-    
-}
-select{
-    position: relative;
-    top: 0;
-    padding: 7px;
-    width: 277px;
-}
+    right: 20px;
+    }
