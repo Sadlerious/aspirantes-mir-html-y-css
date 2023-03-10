@@ -1,0 +1,59 @@
+.background{
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-image: linear-gradient(#bd09b7, #6b4cf5);
+    position: relative;
+}
+.box{
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    left: 30px;
+      
+}
+#email{
+position: absolute;
+left: 0;
+right: 0;
+top: 40px;
+padding: 7px;
+width: 260px;
+}
+
+h1{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    color: white;
+    font: 200% tahoma;
+   
+}
+#password{
+    position: relative;
+    top: 0;
+    padding: 7px;
+    width: 260px;
+
+}
+form{
+    color: white;
+    position: absolute;
+    top: 20px;
+    width: 260px;
+    font: 100% tahoma;
+    
+}
+select{
+    position: relative;
+    top: 0;
+    padding: 7px;
+    width: 277px;
+}
+#checkbox{
+
+}
